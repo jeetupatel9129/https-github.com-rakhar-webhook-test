@@ -1,1 +1,14 @@
-
+    - name: Create A File
+# You may pin to the exact commit or the version.
+# uses: 1arp/create-a-file-action@6b7fed8f0bcec18f7685ff950011088e7ef5e378
+      uses: 1arp/create-a-file-action@0.4.5
+          with:
+            # Path from cwd where file is to be created
+            path: # default is 
+            # If the path provided is an absolute path
+            isAbsolutePath: # optional
+            # The name of the file to be created with extention
+            file: 
+            # The content of the file
+            content: # default is 
+                
